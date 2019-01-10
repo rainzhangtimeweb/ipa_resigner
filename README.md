@@ -1,2 +1,7 @@
 # ipa_resigner
-to resigner ipa
+a ipa resign tool
+
+Write in python 2.7
+
+Required   zipfile, biplist, pyopenssl, you can install them by pip
+
