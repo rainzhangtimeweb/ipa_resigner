@@ -291,12 +291,12 @@ class IpaParse(object):
         #delete plugin
         pluginsPath = os.path.join(self.AppPath, "PlugIns")
         if os.path.exists(pluginsPath):
-          os.remove(pluginsPath)
+          shutil.rmtree(pluginsPath)
 
         #delete watch
         watchPath = os.path.join(self.AppPath, "Watch")
         if os.path.exists(watchPath):
-          os.remove(watchPath)
+          shutil.rmtree(watchPath)
 
 
     def resignFramework(self):
